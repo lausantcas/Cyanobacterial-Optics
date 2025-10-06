@@ -31,28 +31,17 @@ Circles vs ellipses: circles do not exhibit TIR; ellipses can, which helps retai
 Ellipticity trend: holding area constant (1 μm²), average absorption increases with ellipticity under diffuse-light conditions.
 
 ## What does each code file correlate to
-### main_calculation.py
-
-
 ### normal_function.py and refract_normal_function.py
+The normal_function.py script carries out step 3 from the above section, which computes the surface normal at the first intersection point where the ray intersects the cell and the point of intersection of interest is the first.
 
+However, once the ray is looped and bounced around the inside of the cell, it is in interest to maintain the first intersection point as the origin coordinates, and so the normal calculation for the following intersection point means that the second intersection of this ray is the one of interest now. This is calculated in the script found within refract_normal_function.py
+
+### main_calculation.py
+This script carries out steps 1-6, calling upon the normal_function.py and refract_normal_function.py scripts for step 4.
 
 ### average_absorbances_loop_plotting.py
+This script loops and averages using the main_calculation.py script to simulate diffuse-light conditions. It does this
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+##More information
+This project was developed as a dissertation and a full scientific article was written.
