@@ -26,7 +26,7 @@ Absorption = (incident intensity − sum of all intensities transmitted to the o
 Repeat steps 1–6 across all rotations and ray heights, average per geometry, and plot absorption vs ellipticity; this reproduces the rising trend with increasing ellipticity ratio of ax/ay.
 
 ## Results found
-Circles vs ellipses: circles do not exhibit TIR; ellipses can, which helps retain light internally and increases absorption.
+Circles vs ellipses: circles do not exhibit total internal reflection (TIR); ellipses do, which helps retain light internally and increases absorption.
 
 Ellipticity trend: holding area constant (1 μm²), average absorption increases with ellipticity under diffuse-light conditions.
 
@@ -40,7 +40,7 @@ However, once the ray is looped and bounced around the inside of the cell, it is
 This script carries out steps 1-6, calling upon the normal_function.py and refract_normal_function.py scripts for step 4.
 
 ### average_absorbances_loop_plotting.py
-This script loops and averages using the main_calculation.py script to simulate diffuse-light conditions. It does this
+This script loops and averages using the main_calculation.py script to simulate diffuse-light conditions. It does this 
 
 
 ## More information
