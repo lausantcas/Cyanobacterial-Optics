@@ -40,8 +40,12 @@ However, once the ray is looped and bounced around the inside of the cell, it is
 This script carries out steps 1-6, calling upon the normal_function.py and refract_normal_function.py scripts for step 4.
 
 ### average_absorbances_loop_plotting.py
-This script loops and averages using the main_calculation.py script to simulate diffuse-light conditions. It does this 
+This script loops and averages using the main_calculation.py script to simulate diffuse-light conditions. It does this by looping the main_calculation.py file and changing the following parameters:
+- The ellipticity ratio in steps predetermined in parameter k.
+- The height at which a horizontal incident collimated light ray intersects the cell in constant steps within the loop, this is determined from a minimum start to a maximum, with height h.
+- The rotation angle of the cell determined as phi, in constant steps determined by the user.
 
+The absorption of each height and rotation are appended into arrays and averaged overall to find the average absorption for a set control area and ellipticity dimensions of each cell.
 
 ## More information
 This project was developed as a dissertation and a full scientific article was written, please contact for further details.
