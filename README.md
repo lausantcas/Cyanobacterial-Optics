@@ -1,1 +1,1 @@
-# cyanobacterial-optics
+# Cyanobacterial-Optics
