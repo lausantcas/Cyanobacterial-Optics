@@ -44,4 +44,4 @@ This script loops and averages using the main_calculation.py script to simulate 
 
 
 ## More information
-This project was developed as a dissertation and a full scientific article was written.
+This project was developed as a dissertation and a full scientific article was written, please contact for further details.
