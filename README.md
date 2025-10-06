@@ -31,7 +31,13 @@ Circles vs ellipses: circles do not exhibit TIR; ellipses can, which helps retai
 Ellipticity trend: holding area constant (1 μm²), average absorption increases with ellipticity under diffuse-light conditions.
 
 ## What does each code file correlate to
+### main_calculation.py
 
+
+### normal_function.py and refract_normal_function.py
+
+
+### average_absorbances_loop_plotting.py
 
 
 
