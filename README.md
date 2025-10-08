@@ -27,11 +27,11 @@ Repeat steps 1–6 across all rotations and ray heights, average per geometry, a
 
 ## Results found
 Circles vs ellipses: circles do not exhibit total internal reflection (TIR); ellipses do, which helps retain light internally and increases absorption.
-<img width="1394" height="619" alt="image" src="https://github.com/user-attachments/assets/4772cbcc-91a8-4601-a729-c34c0606ee36" />
+<img width="1000" height="444" alt="image" src="https://github.com/user-attachments/assets/4772cbcc-91a8-4601-a729-c34c0606ee36" />
 
 
-Ellipticity trend: holding area constant (1 μm²), average absorption increases with ellipticity under diffuse-light conditions.
-<img width="1083" height="701" alt="image" src="https://github.com/user-attachments/assets/e1c154c3-8955-43c4-93a2-ce4f2c168fcf" />
+Ellipticity trend: holding area constant (1 μm²), average absorption increases with ellipticity under diffuse-light conditions. Below can be seen some preliminary results supporting this.
+<img width="777" height="503" alt="image" src="https://github.com/user-attachments/assets/e1c154c3-8955-43c4-93a2-ce4f2c168fcf" />
 
 
 ## What each code file correlates to
