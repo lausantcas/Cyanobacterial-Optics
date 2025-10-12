@@ -26,7 +26,7 @@ Absorption = (incident intensity − sum of all intensities transmitted to the o
 Repeat steps 1–6 across all rotations and ray heights, average per geometry, and plot absorption vs ellipticity; this reproduces the rising trend with increasing ellipticity ratio of ax/ay.
 
 ## Results found
-Circles vs ellipses: circles do not exhibit total internal reflection (TIR); ellipses do, which helps retain light internally and increases absorption.
+Circles vs ellipses: circles do not exhibit total internal reflection (TIR) no matter the height of the ray due to the geometry; ellipses do at certain rotations and ray heights, which helps retain light internally and increases absorption.
 
 <img width="500" height="222" alt="image" src="https://github.com/user-attachments/assets/4772cbcc-91a8-4601-a729-c34c0606ee36" />
 
